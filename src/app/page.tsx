@@ -7,17 +7,17 @@ import {
   AiFillLinkedin,
   AiFillGoogleCircle,  
 } from "react-icons/ai"; 
-// import { ReactComponent as WorkIcon } from "D:/React Project/porto/public/volunteer.png";
+
 import Image from "next/image";
-import deved from 'D:/React Project/porto/public/dev-ed-wave.png'; 
-import design from 'D:/React Project/porto/public/design.png';
-import code from 'D:/React Project/porto/public/code.png';
-import consulting from 'D:/React Project/porto/public/consulting.png';
-import web1 from "D:/React Project/porto/public/web1gat.png";
-import web2 from "D:/React Project/porto/public/web2gat.png";
-import web3 from "D:/React Project/porto/public/web3gat.png";
-import web4 from "D:/React Project/porto/public/web4gat.png";
-import paper from "D:/React Project/porto/public/papergat.png";
+import deved from 'public/dev-ed-wave.png'; 
+import design from 'public/design.png';
+import code from 'public/code.png';
+import consulting from 'public/consulting.png';
+import web1 from "public/web1gat.png";
+import web2 from "public/web2gat.png";
+import web3 from "public/web3gat.png";
+import web4 from "public/web4gat.png";
+import paper from "public/papergat.png";
 import { useState } from "react";
 
 export default function Home() {
@@ -42,7 +42,7 @@ export default function Home() {
               <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Gathan Al Dhafa</h2>
               <h3 className="text-2xl font-bold py-2 md:text-3xl">Front-End Developer</h3>
               <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
-                 <span className="font-bold">I'm Gathan Al Dhafa</span>, a <span className="font-bold">Front-End Developer </span>from <span className="font-bold">Binus University. 1</span> 
+                 <span className="font-bold">I`m Gathan Al Dhafa</span>, a <span className="font-bold">Front-End Developer </span>from <span className="font-bold">Binus University. 1</span> 
                  Dive into my work to see the seamless blend of design and technology, showcasing my passion for crafting user-centric web experiences. 
                  Explore the intersection of creativity and functionality with me!
               </p>
