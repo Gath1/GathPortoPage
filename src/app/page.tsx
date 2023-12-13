@@ -7,9 +7,9 @@ import {
   AiFillLinkedin,
   AiFillGoogleCircle,  
 } from "react-icons/ai"; 
-
+// import { ReactComponent as WorkIcon } from "D:/React Project/porto/public/volunteer.png";
 import Image from "next/image";
-import deved from 'public/dev-ed-wave.png'; 
+import deved from 'public/gathpoto.jpg'; 
 import design from 'public/design.png';
 import code from 'public/code.png';
 import consulting from 'public/consulting.png';
@@ -42,7 +42,7 @@ export default function Home() {
               <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Gathan Al Dhafa</h2>
               <h3 className="text-2xl font-bold py-2 md:text-3xl">Front-End Developer</h3>
               <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
-                 <span className="font-bold">I`m Gathan Al Dhafa</span>, a <span className="font-bold">Front-End Developer </span>from <span className="font-bold">Binus University. 1</span> 
+                 <span className="font-bold">I`m Gathan Al Dhafa</span>, a <span className="font-bold">Front-End Developer </span>from <span className="font-bold">Binus University. </span> 
                  Dive into my work to see the seamless blend of design and technology, showcasing my passion for crafting user-centric web experiences. 
                  Explore the intersection of creativity and functionality with me!
               </p>
@@ -59,7 +59,7 @@ export default function Home() {
               </a>
             </div>
             <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
-              <Image src= {deved} alt="" layout="fill" objectFit="cover"/>
+              <Image src= {deved} alt=""  objectFit="cover"/>
             </div>
           </section>
 
@@ -147,6 +147,18 @@ export default function Home() {
                 </li>
                 <li className="border-2 rounded-xl px-3 py-3">
                   C/C++
+                </li>
+                <li className="border-2 rounded-xl px-3 py-3">
+                  Laravel
+                </li>
+                <li className="border-2 rounded-xl px-3 py-3">
+                  Bootstrap
+                </li>
+                <li className="border-2 rounded-xl px-3 py-3">
+                  JavaFX
+                </li>
+                <li className="border-2 rounded-xl px-3 py-3">
+                  Tailwind
                 </li>
                 <li className="border-2 rounded-xl px-3 py-3">
                   Critical Thinking
