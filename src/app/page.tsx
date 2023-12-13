@@ -134,6 +134,9 @@ export default function Home() {
                   JavaScript
                 </li>
                 <li className="border-2 rounded-xl px-3 py-3">
+                  PHP
+                </li>
+                <li className="border-2 rounded-xl px-3 py-3">
                   React
                 </li>
                 <li className="border-2 rounded-xl px-3 py-3">
